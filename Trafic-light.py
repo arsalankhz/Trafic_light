@@ -1,4 +1,6 @@
 import time
+
+
 def seven_segment_display(number):
     # Dictionary mapping digits to their seven-segment display representation
     segments = {
@@ -34,6 +36,7 @@ print("Red light")
 for i in range(20,-1,-1):
     seven_segment_display(i)
     time.sleep(1)
+
 time.sleep(1)
 print()
 print("Yellow light")
